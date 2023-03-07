@@ -17,7 +17,6 @@ const data = {
   ],
   products: [
     {
-      // _id: '1',
       name: 'Red lipstick',
       slug: 'red-lipstick',
       category: 'lipstick',
@@ -30,7 +29,6 @@ const data = {
       description: 'high quality',
     },
     {
-      // _id: '2',
       name: 'Purple lipstick',
       slug: 'purple-lipstick',
       category: 'lipstick',
@@ -43,7 +41,6 @@ const data = {
       description: 'high quality',
     },
     {
-      // _id: '3',
       name: 'Liquid lipstick',
       slug: 'liqud-lipstick',
       category: 'lipstick',
@@ -56,7 +53,6 @@ const data = {
       description: 'high quality',
     },
     {
-      // _id: '4',
       name: 'eyeliner',
       slug: 'eyeliner',
       category: 'eyeliner',

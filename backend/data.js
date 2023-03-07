@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'MeronMeklit',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('abcdefg'),
+      isAdmin: true,
+    },
+    {
+      name: 'Alew',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('abcdefg'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Red lipstick',
       slug: 'red-lipstick',
       category: 'lipstick',
@@ -14,7 +30,7 @@ const data = {
       description: 'high quality',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Purple lipstick',
       slug: 'purple-lipstick',
       category: 'lipstick',
@@ -27,27 +43,27 @@ const data = {
       description: 'high quality',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Liquid lipstick',
       slug: 'liqud-lipstick',
       category: 'lipstick',
       image: '/images/Liquidlip.jpeg',
       price: 60,
       countInStock: 10,
-      brand: '',
+      brand: 'Gucci',
       rating: 4.6,
       numReviews: 10,
       description: 'high quality',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'eyeliner',
       slug: 'eyeliner',
       category: 'eyeliner',
       image: '/images/eyeliner.jpeg',
       price: 75,
       countInStock: 10,
-      brand: '',
+      brand: 'Versace',
       rating: 4.8,
       numReviews: 10,
       description: 'high quality',
